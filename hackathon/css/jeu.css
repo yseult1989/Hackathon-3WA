@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Page d'acceuil et de fin */
+
+
+#fee{
+    width: 20%;
+    float: left;
+    margin-right: 5%;
+}
+#container-fee-p {
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+    padding: 3em;
+    margin-top: 3%;
+    text-shadow: 1px 1px rgba(255,255,255, .4);
+}
+
+#main-play {
+    background-image: url('../img/bg-play-2.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+span {
+    font-weight: bold;
+}
+
+#btn-end-game{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 10%;
+}
+a {
+    text-decoration: none;
+    background-color: #5F9EA0;
+    color: white;
+    padding: 1em;
+    border: 1px solid #5F9EA0;
+    border-radius: 20px 20px 20px ;
+    box-shadow:  4px 4px 4px grey;
+}
+a:hover {
+    padding: 1.3em;
+}
+
+/* CSS Page du jeu*/
+
+html{
+	height: 100%;
+}
+body{
+	background-image: url("../img/bg-cloud.jpg");
+	background-position: bottom;
+	background-size: cover;
+	min-width: 100%;
+	font-family: 'Indie Flower', cursive;
+}
+#fairy{
+	height: 117px;
+	background-image: url("../img/fairy.png");
+	position: absolute;
+	z-index: 2;
+}
+
+#safe{
+	height: 43px;
+	width: 46px;
+	background-image: url("../img/safe.png");
+	position: relative;
+	top: 120px;
+	left: 120px;
+}
+
+#zone_safe{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	z-index: 1;
+}
+.face{
+	transform: scaleX(1);
+}
+.turnAround{
+	transform: scaleX(-1);
+}
+.face_1{
+	width: 65px;
+	background-position: 778px -610px;
+}
+.face_2{
+	width: 65px;
+	background-position: -696px -610px;
+}
+.face_3{
+	width: 65px;
+	background-position: -611px -610px;
+}
+.face_4{
+	width: 65px;
+	background-position: -510px -610px;
+}
+.face_5{
+	width: 65px;
+	background-position: -406px -610px;
+}
+.face_6{
+	width: 65px;
+	background-position: 296px -610px;
+}
+
+/*Mise en page alert*/
+body {
+	font-family: 'Bellefair', serif;
+	font-size: 1.3em;
+}
+#question1 {
+	width: 50%;
+	margin: auto;
+}
+#win {
+	margin: 45px;
+	z-index: 5;
+}
+.aligncenter {
+	text-align: center;
+	margin: auto;
+	padding: 1em;
+}
+#btn-radio {
+	text-align: center;
+}
+#btn-send {
+		text-align: center;
+}
+
+/* GAME OVER*/
+#container-fee-p-lutin {
+    margin-top: 15%;
+    margin-left: 30%;
+}
+#container-fee-p-lutin p {
+    margin-bottom: 8%;
+}
+.Indie{
+	font-family: 'Indie Flower', cursive; 
+	font-size: 2em;
+}
+

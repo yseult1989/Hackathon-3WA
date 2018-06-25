@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="../css/jeu.css">
+	<title>La quête de la fée Numéryka</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
+
+	<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+		  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		  crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="gameArea">
+		<div id="fairy" class="face_1 face"></div>
+		<div id="zone_safe"  data-zone_action="test_1" data-zone_action_out="test_1_out">
+		<div id="safe"></div>
+			</div>
+			<!-- Liste des questions : -->
+		<div id="win"> 
+			<h2>Bravo vous avez gagné !</h2>
+			<a href="end.html">Finir la quête</a>
+		</div>
+
+		<script type="text/javascript" src="../js/questions.js"></script>
+		<script src='../js/jeu.js'></script>
+	</div>
+</body>
+</html>
